@@ -1,0 +1,62 @@
+.navBar {
+    height: 50px;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.nav-brand{
+    text-decoration: none;
+}
+
+.cont1 {
+    background-image: url("https://png.pngtree.com/background/20231101/original/pngtree-d-illustration-air-conditioners-ventilators-and-pipes-atop-a-building-s-picture-image_5824899.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cont2 {
+    background-color: rgba(240, 248, 255, 0.75);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.textBox {
+    margin: 30px;
+}
+
+.imgcls {
+    height: 170px;
+    object-fit: cover;
+}
+
+.heading {
+    margin-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 768px) {
+    .navBar {
+        height: auto;
+    }
+
+    .textBox {
+        margin: 15px;
+    }
+
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .imgcls {
+        height: auto;
+    }
+}
