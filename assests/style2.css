@@ -19,7 +19,7 @@ a:hover{
 .cont1{
     height: 100vh;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     background-image: url("https://png.pngtree.com/background/20231101/original/pngtree-d-illustration-air-conditioners-ventilators-and-pipes-atop-a-building-s-picture-image_5824899.jpg");
     background-position: center;
@@ -29,10 +29,25 @@ a:hover{
 
 .cont2{
     background-color: rgb(240, 248, 255, 0.9);
-    height: 70%;
 }
 
 .textBox{
     margin: 30px;
 }
 
+/* .container{
+    margin: 10px;
+} */
+
+.col{
+    margin: 5px;
+}
+
+.imgcls{
+    height: 170px
+}
+
+.heading{
+    margin-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
