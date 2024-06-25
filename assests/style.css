@@ -1,5 +1,6 @@
 .navBar{
     background-color: aquamarine;
+    height: 50px;
 }
 
 .nav-link{
@@ -8,4 +9,10 @@
 
 a:hover{
     background-color: rgb(209, 250, 236);
+    color: black;
 }
+.tms{
+    display: flex;
+    justify-content: center;
+}
+
