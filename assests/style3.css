@@ -34,9 +34,18 @@ a:hover{
 }
 
 .cont2{
-    background-color: rgb(240, 248, 255, 0.97);
-    width: 45%;
+    background-color: rgb(240, 248, 255, 0.3);
+    width: 55%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.cont3{
+    padding: 20px;
+    color: aliceblue;
+}
+
+.new{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
