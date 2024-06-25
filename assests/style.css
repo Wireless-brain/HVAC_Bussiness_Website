@@ -1,0 +1,11 @@
+.navBar{
+    background-color: aquamarine;
+}
+
+.nav-link{
+    color: black;
+}
+
+a:hover{
+    background-color: rgb(209, 250, 236);
+}
