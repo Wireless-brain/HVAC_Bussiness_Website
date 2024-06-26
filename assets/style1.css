@@ -3,13 +3,15 @@
 }
 
 .nav-link {
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    border-radius: 5px;
 }
 
 .nav-link:hover {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 .nav-brand{
@@ -62,4 +64,7 @@ p {
     }
 }
 
+.newLink:hover{
+    color:white;
+}
 
